@@ -72,3 +72,49 @@ A:hover{
       font-size: 3em;
    }
 }
+
+#spalsh {
+	width:200px;
+	position: absolute;
+	top: -80px;
+	right: -80px;
+	transform: rotate(20deg);
+	animation: splash1 1s infinite;
+}
+
+#spalsh2 {
+	width:200px;
+	position: absolute;
+	top: -30px;
+	right: +400px;
+	transform: rotate(-15deg);
+	animation: splash2 1s infinite;
+}
+
+#spalsh3 {
+	width:300px;
+	position: absolute;
+	top: +100px;
+	right: -170px;
+	transform: rotate(-30deg);
+	animation: splash3 1s infinite;
+}
+
+@keyframes splash1 {
+	from {width:200px;}
+	50% {width: 210px;}
+	to {width:200px;}
+}
+
+@keyframes splash2 {
+	from {width:305px;}
+	40% {width: 310px;}
+	90% {width: 300px;}
+	to {width:305px;}
+}
+
+@keyframes splash3 {
+	from {width:210px;}
+	50% {width: 200px;}
+	to {width:210px;}
+}
