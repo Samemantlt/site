@@ -67,6 +67,10 @@ A:hover{
    font-weight: 200;
 }
 
+.button-otvet {
+	text-align: right;
+}
+
 @media only screen and (max-width: 768px) {
    .demo .main-title {
       font-size: 3em;
